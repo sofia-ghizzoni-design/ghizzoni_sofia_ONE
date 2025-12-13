@@ -317,23 +317,6 @@ a.nav-link{
     margin: 0;
 }
 
-/* Animazione continua per la quarta fascia */
-/* .position-relative-3 img {
-    margin-top: 35px;
-    width: calc(100% - 100px);
-    height: auto;
-    animation: float 6s ease-in-out infinite;
-}
-
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-} */
-
 /* SESTA FASCIA */
 
 .titolo-grande{

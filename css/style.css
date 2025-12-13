@@ -35,14 +35,11 @@ h3{
     margin-left: 40px;
 }
 
-.logo {
-    background: transparent no-repeat url(../img/menu.svg);
-    margin-right: 40px;
-    border: none;
-    font-size: 0;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
+.header-logo {
+    height: 60px;
+    width: auto;
+    margin-left: 40px;
+    object-fit: contain;
 }
 
 /* navigazione mobile */
@@ -201,6 +198,15 @@ a.nav-link{
 
 /* SECONDA FASCIA */
 
+.titolo-grande-inizio{
+    font-family: Outfit, Helvetica, sans-serif;
+    font-size: 100px;
+    color: #501E8E;
+    font-weight: bolder;
+    text-align: left;
+    line-height: 0.9; 
+}
+
 .titolo-grande-1{
     font-family: Outfit, Helvetica, sans-serif;
     font-size: 65px;
@@ -310,6 +316,23 @@ a.nav-link{
     text-align: center;
     margin: 0;
 }
+
+/* Animazione continua per la quarta fascia */
+/* .position-relative-3 img {
+    margin-top: 35px;
+    width: calc(100% - 100px);
+    height: auto;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+} */
 
 /* SESTA FASCIA */
 
@@ -486,7 +509,7 @@ footer {
 }
 
 .contact-buttons a {
-    padding: 16px 48px;
+    padding: 16px 100px;
     font-size: 18px;
     font-weight: 500;
     border: 2px solid #D8CEFE;
@@ -496,6 +519,7 @@ footer {
     text-decoration: none;
     display: inline-block;
     font-family: Outfit, Helvetica, sans-serif;
+    margin-right: 30px;
 }
 
 /* Bottone mail - inizia con sfondo rosa */
@@ -568,9 +592,22 @@ footer {
     opacity: 0.6;
 }
 
+
+
+
+
+
 /* media queries > come se facessi una nuova pagina css > in questo caso scriviamo queste regole per il formato tablet*/
 @media (max-width:768px) {
 
+    .header-logo {
+        height: 40px;
+        margin-left: 20px;
+    }
+    .titolo-grande-inizio{
+        font-size: 50px;
+        line-height: 0.9;
+    }
     .titolo-grande-1{
         font-size: 35px;
         line-height: 36px;
@@ -661,6 +698,10 @@ footer {
 /* mobile: copre anche dispositivi leggermente più larghi di 375px */
 @media (max-width:425px) {
     /* usa lo stesso gutter del testo descrizione */
+    .titolo-grande-inizio{
+        font-size: 33px;
+        line-height: 0.9;
+    }
     .titolo-grande,
     .titoletto,
     .prima-row .titolo {
@@ -717,7 +758,10 @@ footer {
 
 /* media queries > come se facessi una nuova pagina css > in questo caso scriviamo queste regole per il formato mobile*/
 @media (max-width:375px) {
-
+    .titolo-grande-inizio{
+        font-size: 30px;
+        line-height: 0.9;
+    }
     .titolo-grande-1{
         font-size: 25px;
         line-height: 30px;

@@ -4,8 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ghizzoni Sofia | Portfolio Personale</title>
+  <link rel="icon" type="image/png" href="img/logo_SG_3.png">
   <link rel="stylesheet" href="css/bootstrap-grid.css">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Aggiunge uno scroll smooth */
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    /* Compensa l'header fisso */
+    section {
+      scroll-margin-top: 10vh;
+    }
+  </style>
 </head>
 <body>
 
@@ -13,22 +25,22 @@
   <div class="container-fluid header-sticky">
       
       <div class="row">
-            <div class="col-6 col-lg-2">
-              <h3>SG</h3>
+            <div class="col-6 col-lg-3">
+                <img src="img/logo_SG_3.png" alt="Logo SG" class="header-logo">
             </div>
-            <div class="d-none d-lg-flex col-lg-9">
+            <div class="d-none d-lg-flex col-lg-7 justify-content-center align-items-center ">
                 <ul class="nav-list">
                       <li class="nav-item">
-                          <a href="#" class="nav-link selected">About me</a>
+                          <a href="#about-me" class="nav-link">About me</a>
                       </li>
                       <li class="nav-item">
-                          <a href="#" class="nav-link">Percorso</a>
+                          <a href="#percorso" class="nav-link">Percorso</a>
                       </li>
                       <li class="nav-item">
-                          <a href="#" class="nav-link">Progetti</a>
+                          <a href="#progetti" class="nav-link">Progetti</a>
                       </li>
                       <li class="nav-item">
-                          <a href="#" class="nav-link">Contatti</a>
+                          <a href="#contatti" class="nav-link">Contatti</a>
                       </li>
                 </ul>
             </div>
@@ -41,19 +53,16 @@
                 <button class="btn btn-close mb-3">Close</button>
                 <ul class="nav-list">
                       <li class="nav-item">
-                          <a href="#" class="nav-link">Home</a>
+                          <a href="#about-me" class="nav-link">About me</a>
                       </li>
                       <li class="nav-item">
-                          <a href="#" class="nav-link">About me</a>
+                          <a href="#percorso" class="nav-link">Percorso</a>
                       </li>
                       <li class="nav-item">
-                          <a href="#" class="nav-link">Percorso</a>
+                          <a href="#progetti" class="nav-link">Progetti</a>
                       </li>
                       <li class="nav-item">
-                          <a href="#" class="nav-link">Progetti</a>
-                      </li>
-                      <li class="nav-item">
-                          <a href="#" class="nav-link">Contatti</a>
+                          <a href="#contatti" class="nav-link">Contatti</a>
                       </li>
                 </ul>
         </div>
@@ -64,13 +73,14 @@
     <div class="col-12 position-relative">
       <img src="img/foto per portfolio viraggio colore orizzontale_NUOVA.jpg" class="img-fluid" alt="foto di Ghizzoni Sofia">
       <div class="titolo">
-        <p class="titolo-grande-1">Ghizzoni<br>Sofia</p>
+        <p class="titolo-grande-inizio">Ghizzoni<br>Sofia</p>
         <p class="sottotitolo">PORTFOLIO PERSONALE</p>
       </div>
     </div>
    </div>
 
-  <!-- terza fascia -->
+  <!-- terza fascia - ABOUT ME -->
+  <section id="about-me">
   <div class="container-fluid-2">
    <div class="row">
     <div class="col-12 position-relative-2">
@@ -78,16 +88,18 @@
       <div class="col-md-6">
         <div class="titolo-centrato">
         <p class="titolo-grande-2">About me</p>
-        <p class="testi-bianchi">Mi chiamo Sofia, vengo da Reggio Emilia e sono una studentessa del secondo anno all’Università degli studi di design di San Marino.
-        L’arte in tutte le sue forme mi ha sempre affascinata moltissimo. 
+        <p class="testi-bianchi">Mi chiamo Sofia, vengo da Reggio Emilia e sono una studentessa del secondo anno all'Università degli studi di design di San Marino.
+        L'arte in tutte le sue forme mi ha sempre affascinata moltissimo. 
         Amo girare per le città, visitare mostre e mangiare buon cibo.</p>
         </div>
       </div>
     </div>
    </div>
   </div>
+  </section>
 
-  <!-- quarta fascia -->
+  <!-- quarta fascia - PERCORSO -->
+  <section id="percorso">
   <div class="container-fluid-2">
    <div class="row">
     <div class="col-12 position-relative-3">
@@ -96,13 +108,15 @@
         <p class="titolo-grande-2">Percorso</p>
         <p class="testi-bianchi">Ho scelto questo percorso di studi fin dalle superiori frequentando un liceo grafico.
         Ho poi deciso di seguire la strada del design perché ho capito di preferire principalmente la comunicazione; riesce a farmi esprimere la creatività e la voglia di sperimentare in un mondo sempre in evoluzione. 
-        Nei progetti prediligo l’aspetto estetico e la funzionalità.</p>
+        Nei progetti prediligo l'aspetto estetico e la funzionalità.</p>
       </div>
     </div>
    </div>
   </div>
+  </section>
 
-<!-- quinta fascia -->
+<!-- quinta fascia - PROGETTI -->
+<section id="progetti">
 <div class="container-fluid-3">
    <div class="row">
     <div class="col-12">
@@ -213,7 +227,7 @@
                 <div class="image-hover-container">
                     <img src="img/pack mele foglio 1.jpg" class="img-fluid" alt="tavola tecnica di schizzi">
                     <div class="image-overlay-2">
-                        <p class="descrizione-2">Sono partita pensando a come le potessero essere trasportate in modo semplice e senza l’utilizzo della plastica.</p>
+                        <p class="descrizione-2">Sono partita pensando a come le potessero essere trasportate in modo semplice e senza l'utilizzo della plastica.</p>
                     </div>
                 </div>
            </div>
@@ -223,7 +237,7 @@
                 <div class="image-hover-container">
                     <img src="img/pack mele foglio 2.jpg" class="img-fluid" alt="tavola tecnica di schizzi">
                     <div class="image-overlay-2">
-                        <p class="descrizione-2">Successivamente ho pensato a come poter realizzare la chiusura in modo che le mele non uscissero dall’involucro.</p>
+                        <p class="descrizione-2">Successivamente ho pensato a come poter realizzare la chiusura in modo che le mele non uscissero dall'involucro.</p>
                     </div>
                 </div>
            </div>
@@ -233,7 +247,7 @@
                 <div class="image-hover-container">
                     <img src="img/pack mele3.jpg" class="img-fluid" alt="packaging finito">
                     <div class="image-overlay-2">
-                        <p class="descrizione-2">Infine ho realizzato la parte grafica del packaging, distinguendo quattro categorie, in base alle mele offerte dall’azienda. Il pack è interamente realizzato in tessuto non tessuto (tnt).</p>
+                        <p class="descrizione-2">Infine ho realizzato la parte grafica del packaging, distinguendo quattro categorie, in base alle mele offerte dall'azienda. Il pack è interamente realizzato in tessuto non tessuto (tnt).</p>
                     </div>
                 </div>
            </div>
@@ -243,7 +257,7 @@
                 <div class="image-hover-container">
                     <img src="img/pack mele2.jpg" class="img-fluid" alt="packaging finito">
                     <div class="image-overlay-2">
-                        <p class="descrizione-2">L’obiettivo era quello di realizzare un packaging che potesse essere riutilizzato per trasportare il frutto dove si volesse senza l’utilizzo di sacchetti in plastica (a scuola, al lavoro...).</p>
+                        <p class="descrizione-2">L'obiettivo era quello di realizzare un packaging che potesse essere riutilizzato per trasportare il frutto dove si volesse senza l'utilizzo di sacchetti in plastica (a scuola, al lavoro...).</p>
                     </div>
                 </div>
            </div>
@@ -273,7 +287,7 @@
       
       <div class="row">
            <div class="col-12 col-lg-2"></div>
-           <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+           <div class="col-6 col-lg-3 mb-4 mb-lg-0">
                 <div class="image-hover-container image-full-width">
                     <img src="img/manifesto unimore.jpg" class="img-fluid" alt="manifesto con un atomo">
                     <div class="image-overlay">
@@ -282,7 +296,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-2 d-none d-lg-block"></div>
-            <div class="col-12 col-lg-3 mb-4 mb-lg-0">
+            <div class="col-6 col-lg-3 mb-4 mb-lg-0">
                 <div class="image-hover-container image-full-width">
                     <img src="img/landingpage unimore.jpg" class="img-fluid" alt="landing page con un atomo">
                     <div class="image-overlay">
@@ -303,7 +317,7 @@
                 <div class="image-hover-container image-full-width">
                     <img src="img/video pescatori.jpg" class="img-fluid" alt="pescatore che si sporge da una barca">
                     <div class="image-overlay">
-                        <p class="descrizione">Video  realizzato per il corso di fotografia, svolto in gruppo seguendo il tema “Cambio generazionale”.<br> Abbiamo deciso di fare un’intervista ai pescatori del porto di Rimini, facendoci raccontare la loro storia e in particolare il loro lavoro.</p>
+                        <p class="descrizione">Video  realizzato per il corso di fotografia, svolto in gruppo seguendo il tema "Cambio generazionale".<br> Abbiamo deciso di fare un'intervista ai pescatori del porto di Rimini, facendoci raccontare la loro storia e in particolare il loro lavoro.</p>
                     </div>
                 </div>
             </div>
@@ -316,8 +330,6 @@
       </div>
 </div>
 
-
-
 <!-- quindicesima fascia -->
 <div class="container-fluid-viola content-wrapper">
       <div class="row gutter-row">
@@ -327,7 +339,7 @@
                 <div class="image-hover-container">
                     <img src="img/pescatori1.jpg" class="img-fluid" alt="foto di barche nel porto di rimini">
                     <div class="image-overlay-2">
-                        <p class="descrizione-2">Il titolo “Ancora in mare” è volutamente ambiguo e racchiude in sé una duplice lettura: può essere inteso sia come “àncora”, oggetto che tiene ferma la barca in mare, sia come “ancòra”, avverbio che indica la persistenza. </p>
+                        <p class="descrizione-2">Il titolo "Ancora in mare" è volutamente ambiguo e racchiude in sé una duplice lettura: può essere inteso sia come "àncora", oggetto che tiene ferma la barca in mare, sia come "ancòra", avverbio che indica la persistenza. </p>
                     </div>
                 </div>
            </div>
@@ -337,7 +349,7 @@
                 <div class="image-hover-container">
                     <img src="img/pescatori2.jpg" class="img-fluid" alt="foto di un pescatore che sistema una rete">
                     <div class="image-overlay-2">
-                        <p class="descrizione-2">Abbiamo posto loro tre domande:<br>“Chi sei?”<br>“Dove vorresti essere?”<br>“Che sensazioni provi quando sei lontano dalla riva?”.</p>
+                        <p class="descrizione-2">Abbiamo posto loro tre domande:<br>"Chi sei?"<br>"Dove vorresti essere?"<br>"Che sensazioni provi quando sei lontano dalla riva?".</p>
                     </div>
                 </div>
            </div>
@@ -386,41 +398,41 @@
 <div class="container-fluid-3 content-wrapper">
       
       <div class="row">
-           <div class="col-2"></div>
-           <div class="col-3">
+           <div class="col-12 col-lg-2"></div>
+           <div class="col-6 col-lg-3 mb-4 mb-lg-0">
                 <div class="image-hover-container image-full-width">
                     <img src="img/manifesti pace 1.jpg" class="img-fluid" alt="manifesto sulla pace con immagine di un ciack da cinema con dietro l'eplosione di una bomba con la frase : It's real life. Not a movie!">
                     <div class="image-overlay">
-                        <p class="descrizione">"It's real life. Not a movie!"<br>La guerra ci è sempre stata insegnata a scuola, l'abbiamo letta sui libri e ci è stata raccontata dai nonni o da chi l'ha vissuta. Ora invece siamo abituati a vederla attraverso uno schermo tramite il telegiornale, i film e i social. Molto spesso quello che ci viene mostrato non sembra reale, come se da quello schermo non potesse uscire e arrivare a noi.<br> L'intento di questo manifesto è di far capire che quello che vediamo ogni giorno sui nostri telefoni non è un film ma la realtà, qualcosa che succede veramente e che porta conseguenze disastrose.</p>
+                        <p class="descrizione">"It's real life. Not a movie!"<br>Siamo abituati a vedere la guerra attraverso uno schermo, i film e i social.<br> L'intento di questo manifesto è di far capire che quello che vediamo ogni giorno sui nostri telefoni non è un film ma la realtà, qualcosa che succede veramente.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-2"></div>
-            <div class="col-3">
+            <div class="col-12 col-lg-2 d-none d-lg-block"></div>
+            <div class="col-6 col-lg-3 mb-4 mb-lg-0">
                 <div class="image-hover-container image-full-width">
                     <img src="img/manifesti pace 2.jpg" class="img-fluid" alt="manifesto sulla pace con immagine di due occhi che vengono coperti da due mani, uno però riesce ad intravedere l'immagine di sfondo, ovvero un'esplosione, con la frase Don't close your eyes">
                     <div class="image-overlay">
-                        <p class="descrizione">"Don't close your eyes"<br>Questo manifesto vuole spingere lo spettatore a non voltarsi riguardo il tema della guerra solamente perché è un argomento che spaventa, ma ad aprire gli occhi sulla situazione mondiale odierna. Chi non vuole vedere ciò che ci succede è come se ne negasse l'esistenza. Chi chiude gli occhi e sceglie di non agire è complice in quello che ci accade.</p>
-                    </div>
+                        <p class="descrizione">"Don't close your eyes"<br>Questo manifesto vuole spingere lo spettatore a non voltarsi riguardo il tema della guerra solamente perché è un argomento che spaventa, ma ad aprire gli occhi sulla situazione mondiale odierna. Chi chiude gli occhi e sceglie di non agire è complice in quello che ci accade.</p>
                 </div>
             </div>
-            <div class="col-2"></div>
+            <div class="col-12 col-lg-2 d-none d-lg-block"></div>
       </div>
 </div>
+</section>
 
-<!-- footer -->
- <footer>
+<!-- footer - CONTATTI -->
+<footer id="contatti">
         <div class="container-fluid-2">
             <div class="footer-top">
                 <p class="titolo-grande-bianco">Contatti</p>
                 <div class="contact-buttons">
-                    <a href="#" class="testi-viola">mail</a>
+                    <a href="mailto:tua-email@esempio.com" class="testi-viola">mail</a>
                     <a href="#" class="testi-bianchi">social</a>
                 </div>
             </div>
 
             <nav class="footer-nav testi-viola">
-                <a href="#about">About me</a>
+                <a href="#about-me">About me</a>
                 <a href="#percorso">Percorso</a>
                 <a href="#" class="logo">SG</a>
                 <a href="#progetti">Progetti</a>
@@ -436,8 +448,6 @@
         </div>
     </footer>
 
-<!-- <script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})</script> -->
-
 <script>
 // Seleziona gli elementi
 const btnMenu = document.querySelector('.btn-menu');
@@ -448,16 +458,13 @@ const navLinks = document.querySelectorAll('.mobile-nav-wrapper .nav-link');
 // Funzione per aprire il menu
 function openMenu() {
     mobileNavWrapper.classList.add('show');
-    // Forza un reflow per far partire l'animazione
     mobileNavWrapper.offsetHeight;
-    // Attiva l'animazione
     mobileNavWrapper.classList.add('animate');
 }
 
 // Funzione per chiudere il menu
 function closeMenu() {
     mobileNavWrapper.classList.remove('animate');
-    // Aspetta che l'animazione finisca prima di nascondere completamente
     setTimeout(function() {
         mobileNavWrapper.classList.remove('show');
     }, 400);
